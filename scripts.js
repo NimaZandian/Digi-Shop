@@ -309,7 +309,7 @@ function func_buy(t) {
 /////////////////// start of Jquery codes for go to top ///////////////////////////////
 let btn_go_up= document.querySelector("#btn-goUp");
 
-$(document).ready(function () {
+$(document).ready(function() {
     $(window).scroll(function(){ 
        if(window.scrollY>500){
        btn_go_up.classList.add("sticky");
